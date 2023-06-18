@@ -62,7 +62,7 @@ Contents & Descriptions
   - Performances
     - It was confirmed that both gender/age classification performance exceeded that of the existing single model
   
-  <img src="https://github.com/qbxlvnf11/yolo-series/assets/52263269/88cb6e6b-17ce-44b6-9e25-8bdc9d5b9861" width="45%"></img>
+  <img src="https://github.com/qbxlvnf11/yolo-series/assets/52263269/88cb6e6b-17ce-44b6-9e25-8bdc9d5b9861" width="80%"></img>
 
   - Studies
     - In order to maximize performance, it is necessary to search for the NORMAL_FACTOR parameter used to adjust the balance of the two losses and the NDDR_FACTOR, FC8_WEIGHT_FACTOR, and FC8_BIAS_FACTOR parameters used to give a larger learning rate to the NDDR-CNN layer to make the magnitude of the NDDR layer weight larger.
