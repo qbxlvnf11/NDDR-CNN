@@ -1,0 +1,8 @@
+MODEL:
+  SHORTCUT: True
+TRAIN:
+  BATCH_SIZE: 15
+  WEIGHT_1: 'Seg'
+  WEIGHT_2: 'Normal'
+TEST:
+  BATCH_SIZE: 15

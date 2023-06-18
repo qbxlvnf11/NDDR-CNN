@@ -1,0 +1,5 @@
+TRAIN:
+  WEIGHT_1: 'Seg'
+  WEIGHT_2: 'Normal'
+  FC8_WEIGHT_FACTOR: 1.
+  FC8_BIAS_FACTOR: 1.

@@ -1,0 +1,5 @@
+MODEL:
+  SHORTCUT: True
+TRAIN:
+  WEIGHT_1: 'Seg'
+  WEIGHT_2: 'Normal'

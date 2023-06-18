@@ -1,0 +1,23 @@
+MODEL:
+  SHORTCUT: True
+  FC8_ID: head
+DATA_DIR: './datasets/imdb-clean-master'
+EXPERIMENT_NAME: 'age_gender_nddr_SHORTCUT_.5_10._2._2.'
+TRAIN:
+  BATCH_SIZE: 5
+  LOG_INTERVAL: 2000
+  SAVE_INTERVAL: 10000
+  STEPS: 100000
+  OUTPUT_SIZE: 128, 128
+  WEIGHT_1: gender_classifier
+  WEIGHT_2: age_classifier
+  # 0.5, 0.1
+  NORMAL_FACTOR: 0.5
+  # 10., 5., 2.
+  NDDR_FACTOR: 10.
+  # 2., 1.
+  FC8_WEIGHT_FACTOR: 2.
+  FC8_BIAS_FACTOR: 2.
+TEST:
+  BATCH_SIZE: 5
+  OUTPUT_SIZE: 128, 128
