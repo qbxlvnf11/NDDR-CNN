@@ -184,13 +184,27 @@ How to use
 References
 =============
 
-#### - NDDR CNN Pytorch
+#### - NDDR-CNN
+```
+@article{NDDR-CNN,
+  title={NDDR-CNN: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction},
+  author={Yuan Gao, Jiayi Ma, Mingbo Zhao, Wei Liu, Alan L. Yuille},
+  journal = {IEEE Conference on Computer Vision and Pattern Recognition, 2019},
+  year={2019}
+}
+```
+
+#### - NDDR-CNN Pytorch
 
 https://github.com/bhpfelix/NDDR-CNN-PyTorch
 
 #### - IMDB-WIKI
 
 https://data.vision.ee.ethz.ch/cvl/rrothe/imdb-wiki/
+
+#### - Gender/Age Classifier
+
+https://github.com/siriusdemon/pytorch-DEX
 
 
 Author
