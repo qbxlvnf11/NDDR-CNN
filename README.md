@@ -184,7 +184,7 @@ How to use
 References
 =============
 
-#### - NDDR-CNN
+#### - NDDR-CNN Paper
 ```
 @article{NDDR-CNN,
   title={NDDR-CNN: Layerwise Feature Fusing in Multi-Task CNNs by Neural Discriminative Dimensionality Reduction},
