@@ -124,7 +124,7 @@ https://github.com/bhpfelix/NDDR-CNN-PyTorch
 Download Pretrained Weights
 =============
 
-#### - Download IMDB-Clean
+#### - Download weights of NDDR-CNN model and each single-task model 
   - Password: 1234
 
 http://naver.me/GbcGLvjn
